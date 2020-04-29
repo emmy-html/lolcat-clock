@@ -19,9 +19,9 @@ var updateClock = function() {
 var messageText;
 var message = document.getElementById("timeEvent");
 var lolcatImage = document.getElementById("lolcat");
-	
+
 var image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/normalTime.jpg";
-	
+
 if (time == partyTime){
 	image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat4.jpg";
     messageText = "IZ PARTEE TIME!!";
@@ -48,9 +48,9 @@ lolcatImage.src = image;
 var showCurrentTime = function() {
 	// displays the string on the webpage
 	var clock = document.getElementById('clock');
-	
+
 	var currentTime = new Date();
-	
+
 	var hours = currentTime.getHours();
 	var minutes = currentTime.getMinutes();
 	var seconds = currentTime.getSeconds();
@@ -87,7 +87,7 @@ var partyEvent = function() {
 		isPartyTime = true;
 		time = partyTime;
 		partyTimeButton.innerText = "PARTY TIME!";
-		partyTimeButton.style.backgroundColor = "#0A8DAB";
+		partyTimeButton.style.backgroundColor = "#E56399";
 	} else {
 		isPartyTime = false;
 		time = new Date().getHours();

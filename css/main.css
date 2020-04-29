@@ -95,14 +95,14 @@ textarea {
 }
 
 body {
-  background-color: #f16059;
+  background-color: #7FD1B9;
 }
 .page {
   width: 80%;
   max-width: 960px;
   margin: 50px auto;
   text-align: center;
-  background-color: #f16059;
+  background-color: #7FD1B9;
   border-radius: 5px;
 }
 body {
@@ -126,6 +126,7 @@ h4 #clock {
   padding: 5px 0px;
 }
 h1, h2, h3, h6 {
+  color: #E56399;
   font-family: 'Bungee Shade', cursive;
 }
 
@@ -145,7 +146,7 @@ blockquote:after { content: '"'; }
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 10px;
-  border:10px solid #222;
+  border:10px solid #E56399;
 }
 #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
   padding: 10px 0;
@@ -160,11 +161,18 @@ blockquote:after { content: '"'; }
   border-radius: 5px;
   padding: 10px 0;
   margin-top: 20px;
+  transition: 1s background;
 }
 
 footer p {
   text-transform: uppercase;
   font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  #lolcat {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
@@ -331,4 +339,3 @@ footer p {
     page-break-after: avoid;
   }
 }
-
