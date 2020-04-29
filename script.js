@@ -1,7 +1,7 @@
 var noon = 12;
 var evening = 18; // 6PM
 
-var wakeupTime = 9; // 9AM
+var wakeUpTime = 9; // 9AM
 var lunchTime = 12; // 12PM
 var partyTime = 17; // 5PM
 var napTime = lunchTime + 2; // 2PM
@@ -31,7 +31,7 @@ if (time == partyTime){
 } else if (time == lunchTime) {
 	image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg";
     messageText = "IZ NOM NOM NOM TIME!!";
-} else if (time == wakeupTime) {
+} else if (time == wakeUpTime) {
 	image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat1.jpg";
     messageText = "IZ TIME TO GETTUP.";
 } else if (time < noon) {
